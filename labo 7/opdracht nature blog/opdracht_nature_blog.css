@@ -1,0 +1,28 @@
+
+.nature {
+    background-image: url("images/header.jpg");
+    background-repeat: no-repeat;
+    line-height: 3;
+    font-size: 42px;
+    color: white;
+    margin-bottom: 0px;
+
+    }
+
+article {
+    margin-top: 1px;
+    background-color: #EEEEEE;
+}
+article > h2 {
+    padding-top: 50px;
+}
+nav {
+    background-color: #444444;
+
+
+
+}
+nav a {
+    color: green;
+    font-weight: bold;
+}

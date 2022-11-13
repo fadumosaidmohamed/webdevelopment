@@ -1,0 +1,11 @@
+td:nth-child(1n+7) {
+    background-color: #FFCCCC;
+}
+td:nth-child(1) {
+    background-color: #FFCCCC;
+}
+
+thead:first-of-type  {
+    background-color: #333333  ;
+    color:#c8bef0 ;
+}

@@ -1,0 +1,17 @@
+section {
+    background-color: #ddc7a0;
+}
+section > h2 {
+    background-color: #8b4411;
+}
+h2 {
+    color: white;
+}
+footer {
+    font-style: italic;
+    margin-top: 10px;
+}
+ul > li {
+    margin: 10px 50px ;
+    font-weight: bold;
+}

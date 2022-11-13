@@ -1,0 +1,17 @@
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; }
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff;
+    overflow: hidden; border: 10px solid #8B4411; -webkit-border-radius: 20px;
+    -moz-border-radius: 20px; border-radius: 20px; }
+.datagrid table td, .datagrid table th { padding: 8px 11px; }
+.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom,
+color-stop(0.05, #8B4411), color-stop(1, #8B4411) );
+    background:-moz-linear-gradient( center top, #8B4411 5%, #8B4411 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8B4411', endColorstr='#8B4411');
+    background-color:#8B4411; color:#FFFFFF; font-size: 13px; font-weight: bold;
+    border-left: 1px solid #FFFFFF; }
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td { color: #000000; font-size: 12px;font-weight: normal; }
+.datagrid table tbody .alt td { background: #DDC7A0; color: #00496B; }
+.onbekend   { background-color: red}
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
