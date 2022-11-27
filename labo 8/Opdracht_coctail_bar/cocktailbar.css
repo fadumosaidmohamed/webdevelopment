@@ -1,0 +1,53 @@
+
+body {
+    width: 95%;
+}
+header {
+    text-align: center;
+}
+h1, h2 {
+    font-family: Verdana Helvetica Arial;
+    font-size: 1.2em;
+    color: #007e7e;
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 130%;
+}
+.side1 {
+    float: left;
+    width: 60%;
+
+}
+.side2 {
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.cocktail {
+    background-image: url(images/cocktail.gif);
+    background-repeat: no-repeat;
+
+}
+.special {
+    text-align: center;
+}
+.extra {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: dashed white;
+}
+.background[href^="http"] {
+    background-image: url(images/background.gif);
+    background-repeat: repeat;
+    background-position: top left;
+}
+div , img {
+    position: center;
+}

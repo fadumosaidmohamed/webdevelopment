@@ -1,0 +1,24 @@
+ul {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    align-content: space-between;
+    list-style: none;
+    height:200px ;
+    border: 1px solid red;
+    flex-wrap: wrap-reverse;
+}
+li {
+    height: 50px;
+    border: 1px solid black;
+}
+
+li:nth-child(3) {
+    background: black;
+    color: red;
+    order: 1;
+}
+.grid {
+    display: grid;
+    grid-template-columns: ;
+}
